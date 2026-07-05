@@ -20,16 +20,16 @@ const Work = () => {
     {
       title: "My Portfolio",
       desc: "My Portfolio — Developed a responsive personal portfolio website using React, HTML, CSS, and JavaScript to showcase projects, skills, and contact information.",
-      img: "./myport.png",
+      img: `${import.meta.env.BASE_URL}myport.png`,
       live: "https://portfolio-lac-gamma-23.vercel.app",
-      git: "https://saipraba28.github.io/upd.portfolio/",
+      git: "https://github.com/SaiPraba28/upd.portfolio",
       tech: ["React", "Framer Motion", "Tailwind", "Next.js"],
     },
     
     {
       title: "KinetiQ –Mobile Recharge Application UI/UX Design",
       desc: "KinetiQ — Designed an interactive mobile recharge application prototype in Figma with multiple screens and intuitive navigation.",
-      img: "./logo.jpeg",
+      img: `${import.meta.env.BASE_URL}logo.jpeg`,
       live: "https://www.figma.com/proto/vY68VKGufJapYrasnTeAJW?node-id=0-1&t=jimnui0rDWnv80lY-6",
       git: "https://github.com/SaiPraba28/Mobile-Recharge-prototype.git",
       tech: ["Figma | UI/UX Design | Interactive Prototype"],

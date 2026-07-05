@@ -114,7 +114,7 @@ const Home = () => {
                 {/* View Resume */}
 
               <a
-                   href="/SaiPrabaResume.pdf"
+                   href={`${import.meta.env.BASE_URL}SaiPrabaResume.pdf`}
                    target="_blank"
                    rel="noopener noreferrer"
                    className="flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-700 text-white font-semibold shadow-lg hover:bg-cyan-600 hover:scale-105 transition-all duration-300"
@@ -126,7 +126,7 @@ const Home = () => {
                  {/* Download Resume */}
 
               <a
-                   href="/SaiPrabaResume.pdf"
+                   href={`${import.meta.env.BASE_URL}SaiPrabaResume.pdf`}
                    download="SaiPrabaResume.pdf"
                    className="flex items-center gap-2 px-6 py-3 rounded-xl border-2 border-blue-400 text-blue-400 font-semibold hover:bg-cyan-500 hover:text-white hover:scale-105 transition-all duration-300"
               >
@@ -175,9 +175,9 @@ const Home = () => {
                 } shadow-[0_0_35px_rgba(59,130,246,0.6)]`}
               >
                 <img
-                  src="./Sai.jpeg"
-                  alt="SaiPraba R"
-                  className="w-full h-full rounded-full object-cover border-4 border-[#0b1120]"
+                   src={`${import.meta.env.BASE_URL}Sai.jpeg`}
+                   alt="SaiPraba R"
+                   className="w-full h-full rounded-full object-cover border-4 border-[#0b1120]"
                 />
               </div>
             </div>
