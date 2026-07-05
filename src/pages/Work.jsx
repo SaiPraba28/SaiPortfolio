@@ -22,7 +22,7 @@ const Work = () => {
       desc: "My Portfolio — Developed a responsive personal portfolio website using React, HTML, CSS, and JavaScript to showcase projects, skills, and contact information.",
       img: `${import.meta.env.BASE_URL}myport.png`,
       live: "https://portfolio-lac-gamma-23.vercel.app",
-      git: "https://github.com/SaiPraba28/upd.portfolio",
+      git: "https://github.com/SaiPraba28/SaiPortfolio.git",
       tech: ["React", "Framer Motion", "Tailwind", "Next.js"],
     },
     
