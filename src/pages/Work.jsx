@@ -34,6 +34,15 @@ const Work = () => {
       git: "https://github.com/SaiPraba28/Mobile-Recharge-prototype.git",
       tech: ["Figma | UI/UX Design | Interactive Prototype"],
     },
+
+    {
+      title: "React Admin Dashboard",
+      desc: "Built a responsive admin panel with interactive charts, sidebar navigation, profile management, and dark/light mode toggle. Designed for usability and modern UI with neon branding.",
+      img: `${import.meta.env.BASE_URL}admin.png`,
+      live: "https://www.figma.com/proto/vY68VKGufJapYrasnTeAJW?node-id=0-1&t=jimnui0rDWnv80lY-6",
+      git: "https://github.com/SaiPraba28/Mobile-Recharge-prototype.git",
+      tech: ["React", "TypeScript", "Tailwind CSS", "Bootstrap", "Material UI", "Redux Toolkit", "Nivo Charts", "Chart.js", "React Router"],
+    },
    
     
     
